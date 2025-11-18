@@ -1173,5 +1173,17 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.statsContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 2rem;
+
+}
+
+@media (max-width : 576px) {
+    .statsContainer{
+        grid-template-columns: 1fr;
+    }
 }
